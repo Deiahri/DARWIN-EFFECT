@@ -1,0 +1,123 @@
+body {
+    width: auto;
+    height: auto;
+    overflow-x: hidden;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.max-width {
+    width: 100%;
+}
+
+.width-setting {
+    width: 50vw;
+}
+
+.max-height {
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* colors */
+.theme-blue-1 {
+    color:#ACE2E1;
+}
+
+.theme-blue-2 {
+    color:#41C9E2;
+}
+
+.theme-blue-3 {
+    color: #008DDA;
+}
+
+.theme-beige {
+    color: #F7EEDD;
+}
+
+.theme-orange {
+    color: peru;
+}
+  
+.theme-blue-1-bg {
+    background-color:#ACE2E1;
+}
+
+.theme-blue-2-bg {
+    background-color:#41C9E2;
+}
+
+.theme-blue-3-bg {
+    background-color: #008DDA;
+}
+
+.theme-beige-bg {
+    background-color: #F7EEDD
+}
+
+.fs-xsm {
+    font-size: 22px;
+}
+
+.fs-sm {
+    font-size: 30px;
+}
+
+.fs-md {
+    font-size: 44px;
+}
+
+.fs-lg {
+    font-size: 56px;
+}
+
+.fs-xlg {
+    font-size: 74px;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+.footer-desktop {
+    display: flex;
+    width: 100vw;
+}
+
+@media (max-width: 900px) {
+    .width-setting {
+        width: 90vw;
+    }
+    .footer-desktop {
+        display: none;
+    }
+    .footer-mobile {
+        width: 100vw;
+        display: flex;
+    }
+}
+  
+
+@media (max-width: 1200px) {
+    .width-setting {
+        width: 70vw;
+    }
+}
