@@ -1,1 +1,0 @@
-This is for rerouting lower-case spelling of the page.
